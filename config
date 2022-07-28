@@ -309,11 +309,11 @@ deploymentConfigurations:
     apiSecurity:
       ssl:
         enabled: false
-      overrideBaseUrl: /gate/
+      overrideBaseUrl: https://oes-x509.isd-dev.opsmx.net/gate
     uiSecurity:
       ssl:
         enabled: false
-      overrideBaseUrl: PROTOCOL://OVERRIDE_DECK_URL
+      overrideBaseUrl: https://oes-x509.isd-dev.opsmx.net/deck
     authn:
       oauth2:
         enabled: false
